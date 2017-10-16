@@ -1,6 +1,6 @@
 FROM alpine
 
-apk add curl curl-dev --no-cache
+RUN apk add curl curl-dev --no-cache
 
 COPY . /
 
